@@ -23,9 +23,10 @@ Follow these instructions carefully and in order.
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
 (Put your answer here)
-
+All for loops needed i to be a let declaration, as well as the arrays.
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
 (Put your answer here)
+EZPZ took a while to find the back-tick on the computer. Ethan: I would only use it if there were more than 3 variables. Nathan: Yes.
