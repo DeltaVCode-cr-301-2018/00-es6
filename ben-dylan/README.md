@@ -22,10 +22,11 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+A const. can't be modified so in for loops using const. doesn't work. You need to use let so that variable will work within that code block. The same thing applies to global variables, you can't use const. on any that will be updated later in the code.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+Once we realized we were missing a minor element " ` " that we could barely see, the rest was smooth sailing.
+i can see this being used all the time.
